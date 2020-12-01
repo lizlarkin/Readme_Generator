@@ -33,11 +33,12 @@ inquirer
             message: 'Enter Test Instructions: ',
             name: 'testsInput',
         },
-        // {
-        //     type: 'input',
-        //     message: 'Enter License: ',
-        //     name: 'licenseInput',
-        // },
+        {
+            type: 'checkbox',
+            message: 'Select License Type: ',
+            choices: ['MIT License', 'Apache License', 'GPL License'],
+            name: 'licenseInput',
+        },
         // {
         //     type: 'input',
         //     message: 'Enter Questions: ',
@@ -51,6 +52,7 @@ inquirer
         console.log(response.usageInput);
         console.log(response.contributingInput);
         console.log(response.testsInput);
+        console.log(response.licenseInput);
 
 
     const markdown = `
