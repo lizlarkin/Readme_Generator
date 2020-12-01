@@ -1,0 +1,22 @@
+{
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "const inquirer = require('inquirer');\r const fs = require('fs');",
+  "main": "readme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizlarkin/Readme_Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizlarkin/Readme_Generator/issues"
+  },
+  "homepage": "https://github.com/lizlarkin/Readme_Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
