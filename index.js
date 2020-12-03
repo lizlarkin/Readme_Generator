@@ -66,28 +66,29 @@ inquirer
         console.log(response.usernameInput);
         console.log(response.emailInput);
 
-
-    const markdown = `
-        # ${response.titleInput}
-        ### Description:
-        <p> ${response.descriptionInput}</p>
-        ### Installation:
-        <p>${response.installationInput}</p>
-        ### Usage: 
-        <p>${response.usageInput}</p>
-        ### Contributing: 
-        <p>${response.contributingInput}</p>
-        ### Tests: 
-        <p>${response.testsInput}</p>
-        ### Questions:
-        <p>${response.usernameInput}</p>
-        http://github.com - automatic!
-        [GitHub](http://github.com/${response.usernameInput})
-        Email me with addition questions at: ${response.emailInput}
-    `
+const markdown = 
+`
+# ${response.titleInput}
+### Description:
+${response.descriptionInput}
+### Installation:
+${response.installationInput}
+### Usage: 
+${response.usageInput}
+### Contributing: 
+${response.contributingInput}
+### Tests: 
+${response.testsInput}
+### Questions:
+${response.usernameInput}
+http://github.com - automatic!
+[GitHub](http://github.com/${response.usernameInput})
+Email me with addition questions at: ${response.emailInput}
+`
 
     fs.writeFile('readme.md', markdown, (err) => {
         if (err) throw err;
         console.log("complete")
     })
 });
+
