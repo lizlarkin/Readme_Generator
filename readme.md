@@ -1,17 +1,30 @@
 
-# Readme Generator
+# 1
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+## Table of Contents:
+- [Description](###Description)
+- [Installation](###Installation)
+- [Usage](###Usage)
+- [Contributing](###Contributing)
+- [Tests](###Tests)
+- [License](###License)
+- [Questions](###Questions)
+
 ### Description:
-Uses command line to generate a readme file using markdown
+2
 ### Installation:
-npm i inquirer
+3
 ### Usage: 
-generate readme files for projects on Github
+4
 ### Contributing: 
-Liz
+5
 ### Tests: 
-test
+6
+### License: 
+Apache License
 ### Questions:
-lizlarkin
-http://github.com - automatic!
-[GitHub](http://github.com/lizlarkin)
-Email me with addition questions at: enlarkin@gmail.com
+7
+* [7 GitHub Link](http://github.com/7)
+* [Email me with addition questions at: 8

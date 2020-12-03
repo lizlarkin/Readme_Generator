@@ -46,11 +46,6 @@ inquirer
         },
         {
             type: 'input',
-            message: 'Enter GitHub username: ',
-            name: 'usernameInput',
-        },
-        {
-            type: 'input',
             message: 'Enter Email Address: ',
             name: 'emailInput',
         },
@@ -69,6 +64,18 @@ inquirer
 const markdown = 
 `
 # ${response.titleInput}
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+## Table of Contents:
+- [Description](###Description)
+- [Installation](###Installation)
+- [Usage](###Usage)
+- [Contributing](###Contributing)
+- [Tests](###Tests)
+- [License](###License)
+- [Questions](###Questions)
+
 ### Description:
 ${response.descriptionInput}
 ### Installation:
@@ -79,11 +86,12 @@ ${response.usageInput}
 ${response.contributingInput}
 ### Tests: 
 ${response.testsInput}
+### License: 
+${response.licenseInput}
 ### Questions:
 ${response.usernameInput}
-http://github.com - automatic!
-[GitHub](http://github.com/${response.usernameInput})
-Email me with addition questions at: ${response.emailInput}
+* [${response.usernameInput} GitHub Link](http://github.com/${response.usernameInput})
+* [Email me with addition questions at: ${response.emailInput}
 `
 
     fs.writeFile('readme.md', markdown, (err) => {
