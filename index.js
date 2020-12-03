@@ -39,11 +39,21 @@ inquirer
             choices: ['MIT License', 'Apache License', 'GPL License'],
             name: 'licenseInput',
         },
-        // {
-        //     type: 'input',
-        //     message: 'Enter Questions: ',
-        //     name: 'questionsInput',
-        // },
+        {
+            type: 'input',
+            message: 'Enter GitHub username: ',
+            name: 'usernameInput',
+        },
+        {
+            type: 'input',
+            message: 'Enter GitHub username: ',
+            name: 'usernameInput',
+        },
+        {
+            type: 'input',
+            message: 'Enter Email Address: ',
+            name: 'emailInput',
+        },
     ])
     .then((response) => {
         console.log(response.titleInput);
@@ -53,20 +63,27 @@ inquirer
         console.log(response.contributingInput);
         console.log(response.testsInput);
         console.log(response.licenseInput);
+        console.log(response.usernameInput);
+        console.log(response.emailInput);
 
 
     const markdown = `
-        <h1>${response.titleInput}</h1>
-        <h3>Description:</h3>
+        # ${response.titleInput}
+        ### Description:
         <p> ${response.descriptionInput}</p>
-        <h3>Installation:</h3>
+        ### Installation:
         <p>${response.installationInput}</p>
-        <h3>Usage: </h3>
+        ### Usage: 
         <p>${response.usageInput}</p>
-        <h3>Contributing: </h3>
+        ### Contributing: 
         <p>${response.contributingInput}</p>
-        <h3>Tests: </h3>
+        ### Tests: 
         <p>${response.testsInput}</p>
+        ### Questions:
+        <p>${response.usernameInput}</p>
+        http://github.com - automatic!
+        [GitHub](http://github.com/${response.usernameInput})
+        Email me with addition questions at: ${response.emailInput}
     `
 
     fs.writeFile('readme.md', markdown, (err) => {
