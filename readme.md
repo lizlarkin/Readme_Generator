@@ -1,6 +1,6 @@
 
-# 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# title
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Table of Contents:
 - [Description](###Description)
 - [Installation](###Installation)
@@ -11,18 +11,25 @@
 - [Questions](###Questions)
 
 ### Description:
+description
 
 ### Installation:
+install
 
 ### Usage: 
+use
 
 ### Contributing: 
+contribute
 
 ### Tests: 
+test
 
 ### License: 
-GPL License: Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
-### Questions:
+>Apache License: A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+> _License descriptions provided by [Choose A License]https://choosealicense.com/)_
 
-* [ GitHub Link](http://github.com/)
-* [Email me with addition questions at: 
+### Questions:
+* GitHub Username: lizlarkin
+* [lizlarkin GitHub Link](http://github.com/lizlarkin)
+* Email me with addition questions at: enlarkin@gmail.com

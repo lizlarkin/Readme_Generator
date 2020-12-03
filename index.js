@@ -96,20 +96,27 @@ ${shield}
 
 ### Description:
 ${response.descriptionInput}
+
 ### Installation:
 ${response.installationInput}
+
 ### Usage: 
 ${response.usageInput}
+
 ### Contributing: 
 ${response.contributingInput}
+
 ### Tests: 
 ${response.testsInput}
+
 ### License: 
-${response.licenseInput}: ${notice}
+>${response.licenseInput}: ${notice}
+> _License descriptions provided by [Choose A License]https://choosealicense.com/)_
+
 ### Questions:
-${response.usernameInput}
+* GitHub Username: ${response.usernameInput}
 * [${response.usernameInput} GitHub Link](http://github.com/${response.usernameInput})
-* [Email me with addition questions at: ${response.emailInput}
+* Email me with addition questions at: ${response.emailInput}
 `
 
     fs.writeFile('readme.md', markdown, (err) => {
