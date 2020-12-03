@@ -1,17 +1,17 @@
 
-# 1
+# Readme Generator
 ### Description:
-2
+Uses command line to generate a readme file using markdown
 ### Installation:
-3
+npm i inquirer
 ### Usage: 
-4
+generate readme files for projects on Github
 ### Contributing: 
-5
+Liz
 ### Tests: 
-6
+test
 ### Questions:
-7
+lizlarkin
 http://github.com - automatic!
-[GitHub](http://github.com/7)
-Email me with addition questions at: 8
+[GitHub](http://github.com/lizlarkin)
+Email me with addition questions at: enlarkin@gmail.com
