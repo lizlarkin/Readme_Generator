@@ -1,6 +1,6 @@
 
-# Readme Generator
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Dynamic ReadMe Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents:
 - [Description](###Description)
 - [Installation](###Installation)
@@ -14,22 +14,23 @@
 Dynamically generate a GitHub readme file using this command-line application.
 
 ### Installation:
-install Inquirer (npm i inquirer), and ensure that repo contains package.json (npm init)
+Install Inquirer package (npm i install), and ensure that repo contains package.json (npm init)
 
 ### Usage: 
-Enter readme info into command-line prompts. For example, Enter Project Title: Readme Generator
+Enter readme info into command-line prompts. For example, Enter Title Project: ReadMe Generator
 
 ### Contributing: 
-This project is open to contributors.
+This project is open to contributions. 
 
 ### Tests: 
 TBD
 
 ### License: 
->Apache License: A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+>MIT License: A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 > _License descriptions provided by [Choose A License]https://choosealicense.com/)_
 
 ### Questions:
 * GitHub Username: lizlarkin
 * [lizlarkin GitHub Link](http://github.com/lizlarkin)
 * Email me with addition questions at: enlarkin@gmail.com
+* Link to Demo: (https://drive.google.com/file/d/1RoX7FvnBukXsvjoqumeLOmcmofWSwDA6/view)
