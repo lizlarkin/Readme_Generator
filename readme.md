@@ -1,5 +1,5 @@
 
-# title
+# Readme Generator
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Table of Contents:
 - [Description](###Description)
@@ -11,19 +11,19 @@
 - [Questions](###Questions)
 
 ### Description:
-description
+Dynamically generate a GitHub readme file using this command-line application.
 
 ### Installation:
-install
+install Inquirer (npm i inquirer), and ensure that repo contains package.json (npm init)
 
 ### Usage: 
-use
+Enter readme info into command-line prompts. For example, Enter Project Title: Readme Generator
 
 ### Contributing: 
-contribute
+This project is open to contributors.
 
 ### Tests: 
-test
+TBD
 
 ### License: 
 >Apache License: A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
